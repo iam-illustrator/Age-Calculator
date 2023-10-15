@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* banner section */
+.banner {
+  background-color: #e41c38;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+}
+
+.banner-head {
+  color: white;
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+}
+
+/* card section */
+.card {
+  height: 320px;
+  width: 600px;
+  background-color: white;
+  position: relative;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+/* rendered div */
+.render-div {
+  margin-top: 30px;
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  color: black;
+}
+.render-div > h1 > span {
+  margin-top: 30px;
+  margin-left: 5px;
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  color: black;
+}
